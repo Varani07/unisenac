@@ -10,3 +10,13 @@ Desenvolva um algoritmo onde o usuário digite a distância, o consumo e o valor
 combustível, com estes dados o algoritmo deverá calcular a quantidade de litros de combustível para a
 viagem e o custo da viagem.
 """
+
+distancia = int(input("\nDigite a distância: "))
+consumo = int(input("Digite o consumo: "))
+preco = float(input("Digite o valor do litro de combustível: R$"))
+
+quantia_combustivel_lt = distancia / consumo
+print(f"\nA quantia de litros de combustível para a viagem é: {round(quantia_combustivel_lt, 2)} litros\nCusto da viagem: R${round(quantia_combustivel_lt * preco, 2)}\n")
+
+# 43 litros
+# R$195,00
