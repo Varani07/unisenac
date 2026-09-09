@@ -1,0 +1,25 @@
+h2{
+    color: green;
+}
+
+p{
+    color: blue;
+}
+
+#destaque{
+    font-size: 48px;
+}
+
+.subtitulo{
+    color: gray;
+    text-transform: uppercase;
+}
+
+.info{
+    background: black;
+    color: #fff;
+}
+
+.info strong{
+    color: orange;
+}
