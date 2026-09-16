@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    font-family: Verdana, sans-serif;
+    font-size: 60px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through overline underline wavy;
+    color: #8010fa;
+}
+
+.formula{
+    font-size: 56px;
+}
+
+.formula span{
+    vertical-align: sub;
+    font-size: 36px;
+}
+
+.info{
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.info img{
+    vertical-align: middle;
+}
+
+p{
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.destaque{
+    font-size: 38px;
+    word-spacing: -5px;
+    letter-spacing: 10px;
+}
+
+.subtitulo{
+    font-size: 38px;
+    word-spacing: 10px;
+}
+
+.subtitulo em {
+    font-style: normal;
+}
