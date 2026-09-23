@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<title>Aprendendo sobre Backgrounds</title>
+	</head>
+	<body>
+        <div class="banner">
+            <h2>Texto em destaque</h2>
+        </div>
+        <div class="banner-2"></div>
+        <div class="container">
+            <h2>Exemplo de Background</h2>
+            <p>Via CSS podemos inserir no plano de fundo de qualquer elemento HTML</p>
+            <p>Via CSS podemos inserir no plano de fundo de qualquer elemento HTML</p>
+        </div>
+	</body>
+</html>
+
