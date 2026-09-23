@@ -1,0 +1,26 @@
+body{
+    background: url(images/star.png);
+    background-color: #1b1949;
+    background-attachment: fixed;
+}
+
+.rocket_div{
+    text-align: center;
+}
+
+#rocket{
+    height: 400px;
+}
+
+.mensagem{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ddd;
+}
+
+.mensagem a{
+    color: #fff;
+    background-color: #f60;
+}

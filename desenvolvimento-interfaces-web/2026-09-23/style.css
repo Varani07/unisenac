@@ -1,0 +1,53 @@
+body{
+    font-family: arial, verdana, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url(images/icones.png);
+    background-repeat: repeat;
+    background-position: bottom right;
+}
+
+.container{
+    background: url(images/et.png) no-repeat center center;
+    background-color: #000;
+    width: 50%;
+    height: 1000px;
+}
+
+.container h2{
+    background-color: #f60;
+}
+
+.container p{
+    color: #ddd;
+}
+
+.banner{
+    height: 300px;
+    background: url(images/prato.png) no-repeat center right;
+    background-color: #000;
+}
+
+.banner h2{
+    color: #f60;
+    font-size: 48px;
+}
+
+.banner-2{
+    height: 300px;
+    background: url(images/prato.png) no-repeat center right;
+    background-size: cover;
+    /* background-size: 100% auto; */
+}
+
+.tela{
+    background: url(images/back.jpg) no-repeat center center;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+.infos{
+    height: 1500px;
+    color: #fff;
+    font-size: 56px;
+    text-align: center;
+}
