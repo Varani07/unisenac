@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.topo{
+    background-color: #444;
+    text-align: center;
+    padding: 15px;
+}
+
+.listas ul{
+    font-size: 24px;
+    list-style-position: inside;
+    list-style-type: circle;
+    list-style-image: url(images/check.png);
+}
+
+.listas ol{
+    font-size: 24px;
+    list-style-type: upper-roman;
+}
+
+.container{
+    background: #ddd;
+    width: 80%;
+    margin: 70px auto;
+    border: solid 2px #444;
+    height: 450px;
+    position: relative;
+}
+
+.card{
+    font-size: 68px;
+    border: solid 1px #333;
+    width: 200px;
+    background: #fff;
+    text-align: center;
+    margin: 10px;
+    padding: 90px 0;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.um{
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+}
+
+.dois{
+    top: 20px;
+    left: 120px;
+    z-index: 5;
+}
+
+.tres{
+    top: 160px;
+    left: 180px;
+    z-index: 10;
+}
+
+.contato{
+    width: 200px;
+    background: #24cc63;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px #333;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.contato a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li{
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.menu a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #984bac;
+}
