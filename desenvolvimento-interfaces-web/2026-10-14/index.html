@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<title>Eventos de Hover e Posicionamento de elementos</title>
+        <link rel="icon" type="image/png" href="images/cat-1.png">
+        <style type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .card {
+                float: left;
+                border: solid 3px #333;
+                border-radius: 20px;
+                width: 33%;
+                background: #fff;
+                overflow: hidden;
+                padding: 20px 5px;
+                box-shadow: 4px 4px 6px 1px #000;
+                box-sizing: border-box;
+            }
+            .card:hover {
+                /* inset - sombra interna */
+                box-shadow: 8px 8px 12px #000;
+                margin-top: -5px;
+                margin-left: -3px;
+            }
+            .card a {
+                text-align: center;
+                display: block;
+                text-decoration: none;
+                background: #999;
+                color: #fff;
+                padding: 10px 0;
+                width: 70%;
+                margin: auto;
+                border-radius: 10px;
+            }
+            .card a:hover {
+                background: #333;
+                color: #f60;
+            }
+            .card h2 {
+                text-align: center;
+                color: #999;
+                text-transform: uppercase;
+            }
+            .card img {
+                width: 100%;
+            }
+            .container {
+                background: #ddd;
+                padding: 20px;
+                overflow: hidden;
+                width: 90%;
+                margin: 40px auto;
+            }
+
+            .exemplo {
+                width: 20%;
+                float: left;
+                border: solid 1px #333;
+                margin: 20px 10px;
+                height: 250px;
+            }
+            .um {
+                overflow: hidden;
+            }
+            .dois {
+                overflow: scroll;
+            }
+            .tres {
+                overflow-y: scroll;
+            }
+            .quatro {
+                overflow: auto;
+            }
+        </style>
+	</head>
+	<body>
+        <div class="exemplo um">
+            <h2>Teste de Overflow</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="exemplo dois">
+            <h2>Teste de Overflow</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="exemplo tres">
+            <h2>Teste de Overflow</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+        <div class="exemplo quatro">
+            <h2>Teste de Overflow</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <img src="images/cat-1.png" alt="Gato">
+                <h2>Primeiro Gato</h2>
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card">
+                <img src="images/cat-2.png" alt="Gato">
+                <h2>Segundo Gato</h2>
+                <a href="#">Veja mais</a>
+            </div>
+            <div class="card">
+                <img src="images/cat-3.png" alt="Gato">
+                <h2>Terceiro Gato</h2>
+                <a href="#">Veja mais</a>
+            </div>
+        </div>
+	</body>
+</html>
+
