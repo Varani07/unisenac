@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background: #ddd;
+    height: 500px;
+    margin: 40px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    align-content: center;
+    align-items: end;
+}
+
+.bloco {
+    width: 33%;
+    background: #333;
+    color: #fff;
+    border-radius: 10px;
+    border: solid 1px #ddd;
+    font-size: 48px;
+    padding: 25px;
+    box-sizing: border-box;
+}
