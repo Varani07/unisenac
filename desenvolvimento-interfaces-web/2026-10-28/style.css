@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#topo {
+    padding: 10px 20px;
+    border-bottom: solid 1px #444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.logo {
+    font-size: 32px;
+    font-style: italic;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li a {
+    font-size: 18px;
+    color: #d9a520;
+    padding: 0px 10px;
+}
+
+#situacoes {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+#situacoes h2, #valores h2 {
+    font-size: 32px;
+    text-align: center;
+    color: #444;
+    margin-bottom: 0;
+}
+
+#situacoes h2 span, #valores h2 span {
+    color: #d9a520;
+}
+
+#situacoes p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bloco {
+    background: #faf8f5;
+    border-radius: 20px;
+    max-width: 250px;
+    box-shadow: 0 0 6px #bbb;
+}
+
+.bloco:hover {
+    box-shadow: 0 5px 18px #bbb;
+}
+
+.bloco h3 {
+    text-align: center;
+    color: 444;
+}
+
+#situacoes .bloco p {
+    font-size: 16px;
+    padding: 5px 15px;
+    margin-bottom: 15px;
+}
+
+.bloco .simbolo {
+    background: #d9a520;
+    color: #fff;
+    font-size: 38px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+#valores {
+    margin: 60px 0;
+}
+
+#valores table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 25px auto;
+}
+
+#valores table td {
+    padding: 10px 5px;
+}
+
+#valores table tr {
+    border-bottom: dashed 1px #333;
+}
+
+#valores thead {
+    background: #d9a520;
+    color: #fff;
+}
+
+#valores thead tr {
+    border: none;
+}
+
+#valores tfoot tr {
+    text-align: center;
+    border-bottom: solid 2px #333;
+    color: #d9a520;
+}
