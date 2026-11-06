@@ -1,0 +1,8 @@
+.formulario input {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.check label {
+    display: block;
+}

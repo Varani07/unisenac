@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<title>Formulários</title>
+	</head>
+	<body>
+        <form class="formulario" method="post" action="">
+            <label for="nome">Nome Completo:</label>
+            <input id="nome" type="text" name="nome" placeholder="Seu nome" maxlength="80" minlength="4" required>
+
+            <label for="email">Seu E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="seuemail@gmail.com" required>
+
+            <input type="number" max="9" min="1" step="2" name="idade" placeholder="Sua idade">
+
+            <input type="tel" name="telefone" placeholder="Seu telefone / Whatsapp">
+
+            <input type="url" name="site" placeholder="Seu linkedin">
+
+            <input type="date" name="dataNascimento">
+            <input type="time" name="hora">
+            <input type="datetime-local" name="dataHora">
+            <input type="month" name="mes">
+            <input type="week" name="semana">
+
+            <input type="color" name="cor">
+
+            <input type="file" name="arquivo">
+
+            <input type="password" name="senha" placeholder="Crie uma senha">
+
+            <input type="search" name="busca" placeholder="Pesquisar">
+
+            <input type="range" name="escala" max="3" min="1">
+
+            <div class="check">
+                <h2>Quais linguagens você domina?</h2>
+                <input id="html" type="checkbox" name="html"><label for="html">HTML</label>
+                <input id="css" type="checkbox" name="css"><label for="css">CSS</label>
+                <input id="js" type="checkbox" name="js"><label for="js">JS</label>
+            </div>
+
+            <div class="check">
+                <h2>Qual a sua preferência:</h2>
+                <input id="front" type="radio" name="pre" value="front" checked><label>FrontEnd</label>
+                <input id="back" type="radio" name="pre" value="back"><label>BackEnd</label>
+                <input id="full" type="radio" name="pre" value="fullstack"><label>Full Stack</label>
+            </div>
+
+            <button>Cadastrar Dados</button>
+            <input type="submit" name="enviar" value="Enviar">
+            <input type="reset" name="Apagar"> 
+        </form>
+	</body>
+</html>
+
